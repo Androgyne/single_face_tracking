@@ -71,6 +71,8 @@ Here's an example of how to run the script with sample file paths:
 python3 src/face_tracking.py --video_path sample/video_1.mp4 --image_path sample/image_1.jpg --recog_threshold 0.6 --output_width 240 --output_height 320 --output_path ./output
 ```
 
+Note: In this repo, we provide three videos with their corresponding target images under `sample/`.
+
 
 ## Example Output
 
