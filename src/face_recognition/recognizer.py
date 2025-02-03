@@ -1,8 +1,9 @@
-from facenet_pytorch import InceptionResnetV1, MTCNN
+import cv2
 import torch
 import numpy as np
 from scipy.spatial.distance import cosine
-import cv2
+from facenet_pytorch import InceptionResnetV1
+
 
 class FaceRecognizer:
     def __init__(self, target_image_path=None, device='cuda' if torch.cuda.is_available() else 'cpu'):
